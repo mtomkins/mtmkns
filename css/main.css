@@ -1,0 +1,384 @@
+/*****************************
+GENERAL
+*****************************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	background-color: #292929;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 64px;
+	height: 64px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+    z-index: 100;
+}
+
+h4 {
+	color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	max-width: 81px;
+	margin: 0px 0px 88px 88px;
+	padding: 16px 20px 16px 20px;
+}
+
+h4:hover {
+	color: pink;
+	border-style: solid;
+	border-width: 1px;
+	border-color: pink;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	max-width: 81px;
+	margin: 0px 0px 88px 88px;
+	padding: 16px 20px 16px 20px;
+}
+
+
+section {
+	background-color: #000000;
+	height: 2400px;
+}
+
+/*****************************
+TYPE
+*****************************/
+
+h1 {
+	font-family: 'Arapey', serif;
+	font-size: 3em;
+	font-weight: 100;
+	color: #ffffff;
+	margin: 0px 0px 16px 88px;
+	padding-top: 420px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 600;
+	color: #ffffff;
+	margin: 0px 0px 32px 88px;
+	max-width: 600px;
+}
+
+h3 {
+	color: #ffffff;
+	margin-top: 0;
+}
+
+h5 {
+	color: #ffffff;
+	font-size: 0.75em;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+h5:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* h5:active {
+	color: pink;
+	text-decoration: none;
+} */
+
+h5:visited {
+	text-decoration: none;
+}
+
+h5:hover {
+	color: pink;
+	text-decoration: none;
+}
+
+h6 {
+	color: #ffffff;
+	text-align: center;
+}
+
+/*****************************
+Nav
+*****************************/
+
+.bg {
+	background-color: #000000;
+	height: 64px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+ul {
+	background-color: #transparent;
+	height: 64px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: block;
+	position: fixed;
+	top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+li {
+	display: inline-block;
+	margin: 26px 16px 0px 16px;
+	text-decoration: none;
+}
+
+/*****************************
+Sub-Nav
+*****************************/
+
+#subNav {
+	background-color: transparent;
+	height: 0px;
+	z-index: 2;
+}
+
+.scNav {
+	opacity: 0;
+}
+
+.urNav {
+	opacity: 0;
+}
+
+.vtNav {
+	opacity: 0;
+}
+
+#dividers {
+	background-color: transparent;
+	height: 0px;
+	z-index: 1;
+}
+
+.line1 {
+	pointer-events: none;
+	padding: 0px 205px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #273034;
+	width: 0px;
+}
+
+.line2 {
+	pointer-events: none;
+	padding: 0px 0px 0px 230px;
+	margin: 0px 0px 0px 0px;
+	color: #273034;
+	width: 0px;
+}
+
+/*****************************
+About
+*****************************/
+
+#about {
+	background-color: #000000;
+	height: 824px;
+}
+
+#about p {
+	color: #ffffff;
+	text-align: center;
+	margin: 0px 88px 0px 88px;
+}
+
+#about strong {
+	color: #ffffff;
+}
+
+#about strong:hover {
+	color: pink;
+}
+
+
+.flex-center {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	height: 800px;
+}
+
+/*****************************
+Work
+*****************************/
+
+#squareCard {
+	background-color: #1a1a1a;
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.75)
+    ),
+	url(img/register.png) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+	height: 800px;
+}
+
+
+#unifiedReporting {
+	background-color: #333333;
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.75)
+    ),
+	url(img/phone.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+	height: 800px;
+}
+
+#virtualTerminal {
+	background-color: #4d4d4d;
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.75)
+    ),
+	url(img/laptop.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+	height: 800px;
+}
+
+/*****************************
+Press
+*****************************/
+
+.press {
+	background-color: #1a1a1a;
+	height: 600px;
+}
+
+/*****************************
+Footer
+*****************************/
+
+footer {
+	background-color: #000000;
+	height: 200px;
+}
+
+
+/*****************************
+Responsive
+*****************************/
+
+@media (max-width: 550px) {
+  h4 {
+    margin-left: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 550px) {
+ p {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 550px) {
+ #about p {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    padding-top: 200px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
